@@ -14,6 +14,7 @@ document.body.onload = myMove;
       document.querySelector('#rules').style.display = 'none';
       clearInterval(interval);
       document.querySelector('#level #levelup').innerHTML = levelup;
+      document.querySelector('#audio1').play();
       timeLevel -= 5;
       levelup++;
       console.log('clicked');
